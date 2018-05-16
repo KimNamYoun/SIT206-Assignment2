@@ -15,6 +15,7 @@
 		228B67D820A2E95500FD8794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228B67D620A2E95500FD8794 /* Main.storyboard */; };
 		228B67DA20A2E95500FD8794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228B67D920A2E95500FD8794 /* Assets.xcassets */; };
 		228B67DD20A2E95500FD8794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228B67DB20A2E95500FD8794 /* LaunchScreen.storyboard */; };
+		22AE3D6720AC244600E973B9 /* TWICEWhatisLove.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22AE3D6620AC244600E973B9 /* TWICEWhatisLove.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		228B67D920A2E95500FD8794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		228B67DC20A2E95500FD8794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		228B67DE20A2E95500FD8794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22AE3D6620AC244600E973B9 /* TWICEWhatisLove.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TWICEWhatisLove.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		228B67CB20A2E95500FD8794 /* SIT206 Assignment 2 */ = {
 			isa = PBXGroup;
 			children = (
+				22AE3D6620AC244600E973B9 /* TWICEWhatisLove.mp3 */,
 				228B67CC20A2E95500FD8794 /* AppDelegate.swift */,
 				228B67CE20A2E95500FD8794 /* GameScene.sks */,
 				228B67D020A2E95500FD8794 /* Actions.sks */,
@@ -134,6 +137,7 @@
 			files = (
 				228B67D820A2E95500FD8794 /* Main.storyboard in Resources */,
 				228B67CF20A2E95500FD8794 /* GameScene.sks in Resources */,
+				22AE3D6720AC244600E973B9 /* TWICEWhatisLove.mp3 in Resources */,
 				228B67DA20A2E95500FD8794 /* Assets.xcassets in Resources */,
 				228B67DD20A2E95500FD8794 /* LaunchScreen.storyboard in Resources */,
 				228B67D120A2E95500FD8794 /* Actions.sks in Resources */,
