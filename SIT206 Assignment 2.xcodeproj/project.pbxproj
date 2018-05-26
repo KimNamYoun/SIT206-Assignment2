@@ -8,28 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		228B67CD20A2E95500FD8794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B67CC20A2E95500FD8794 /* AppDelegate.swift */; };
-		228B67CF20A2E95500FD8794 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 228B67CE20A2E95500FD8794 /* GameScene.sks */; };
 		228B67D120A2E95500FD8794 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 228B67D020A2E95500FD8794 /* Actions.sks */; };
-		228B67D320A2E95500FD8794 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B67D220A2E95500FD8794 /* GameScene.swift */; };
 		228B67D520A2E95500FD8794 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B67D420A2E95500FD8794 /* GameViewController.swift */; };
 		228B67D820A2E95500FD8794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228B67D620A2E95500FD8794 /* Main.storyboard */; };
 		228B67DA20A2E95500FD8794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228B67D920A2E95500FD8794 /* Assets.xcassets */; };
 		228B67DD20A2E95500FD8794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228B67DB20A2E95500FD8794 /* LaunchScreen.storyboard */; };
 		22AE3D6720AC244600E973B9 /* TWICEWhatisLove.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22AE3D6620AC244600E973B9 /* TWICEWhatisLove.mp3 */; };
+		22BBB0B120B91A540079F6E9 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22BBB0B020B91A540079F6E9 /* MainMenu.sks */; };
+		22BBB0B820B91B880079F6E9 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BBB0B720B91B880079F6E9 /* MainMenuScene.swift */; };
+		22BBB0BC20B91D7D0079F6E9 /* GameplaySceneClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BBB0BB20B91D7D0079F6E9 /* GameplaySceneClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		228B67C920A2E95500FD8794 /* SIT206 Assignment 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SIT206 Assignment 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		228B67CC20A2E95500FD8794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		228B67CE20A2E95500FD8794 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		228B67D020A2E95500FD8794 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		228B67D220A2E95500FD8794 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		228B67D420A2E95500FD8794 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		228B67D720A2E95500FD8794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		228B67D920A2E95500FD8794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		228B67DC20A2E95500FD8794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		228B67DE20A2E95500FD8794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22AE3D6620AC244600E973B9 /* TWICEWhatisLove.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TWICEWhatisLove.mp3; sourceTree = "<group>"; };
+		22BBB0B020B91A540079F6E9 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		22BBB0B720B91B880079F6E9 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		22BBB0BB20B91D7D0079F6E9 /* GameplaySceneClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplaySceneClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2259858E20AEC07700EB2876 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				22BBB0AF20B91A0A0079F6E9 /* Scenes */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		228B67C020A2E95500FD8794 = {
 			isa = PBXGroup;
 			children = (
@@ -62,11 +72,11 @@
 		228B67CB20A2E95500FD8794 /* SIT206 Assignment 2 */ = {
 			isa = PBXGroup;
 			children = (
+				22BBB0B220B91AD90079F6E9 /* Classes */,
+				2259858E20AEC07700EB2876 /* Scenes */,
 				22AE3D6620AC244600E973B9 /* TWICEWhatisLove.mp3 */,
 				228B67CC20A2E95500FD8794 /* AppDelegate.swift */,
-				228B67CE20A2E95500FD8794 /* GameScene.sks */,
 				228B67D020A2E95500FD8794 /* Actions.sks */,
-				228B67D220A2E95500FD8794 /* GameScene.swift */,
 				228B67D420A2E95500FD8794 /* GameViewController.swift */,
 				228B67D620A2E95500FD8794 /* Main.storyboard */,
 				228B67D920A2E95500FD8794 /* Assets.xcassets */,
@@ -74,6 +84,31 @@
 				228B67DE20A2E95500FD8794 /* Info.plist */,
 			);
 			path = "SIT206 Assignment 2";
+			sourceTree = "<group>";
+		};
+		22BBB0AF20B91A0A0079F6E9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				22BBB0B020B91A540079F6E9 /* MainMenu.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		22BBB0B220B91AD90079F6E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				22BBB0B320B91AFA0079F6E9 /* Scene Classes */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		22BBB0B320B91AFA0079F6E9 /* Scene Classes */ = {
+			isa = PBXGroup;
+			children = (
+				22BBB0B720B91B880079F6E9 /* MainMenuScene.swift */,
+				22BBB0BB20B91D7D0079F6E9 /* GameplaySceneClass.swift */,
+			);
+			path = "Scene Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +143,7 @@
 				TargetAttributes = {
 					228B67C820A2E95500FD8794 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,10 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				228B67D820A2E95500FD8794 /* Main.storyboard in Resources */,
-				228B67CF20A2E95500FD8794 /* GameScene.sks in Resources */,
 				22AE3D6720AC244600E973B9 /* TWICEWhatisLove.mp3 in Resources */,
 				228B67DA20A2E95500FD8794 /* Assets.xcassets in Resources */,
 				228B67DD20A2E95500FD8794 /* LaunchScreen.storyboard in Resources */,
+				22BBB0B120B91A540079F6E9 /* MainMenu.sks in Resources */,
 				228B67D120A2E95500FD8794 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,9 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				228B67D320A2E95500FD8794 /* GameScene.swift in Sources */,
 				228B67D520A2E95500FD8794 /* GameViewController.swift in Sources */,
+				22BBB0B820B91B880079F6E9 /* MainMenuScene.swift in Sources */,
 				228B67CD20A2E95500FD8794 /* AppDelegate.swift in Sources */,
+				22BBB0BC20B91D7D0079F6E9 /* GameplaySceneClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +327,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "SIT206 Assignment 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NAM-YOUN-KIM.SIT206-Assignment-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,8 +344,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "SIT206 Assignment 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NAM-YOUN-KIM.SIT206-Assignment-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
