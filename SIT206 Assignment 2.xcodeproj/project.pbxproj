@@ -48,7 +48,7 @@
 		2259858E20AEC07700EB2876 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				22BBB0AF20B91A0A0079F6E9 /* Scenes */,
+				22BBB0AF20B91A0A0079F6E9 /* MainMenu */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -86,11 +86,12 @@
 			path = "SIT206 Assignment 2";
 			sourceTree = "<group>";
 		};
-		22BBB0AF20B91A0A0079F6E9 /* Scenes */ = {
+		22BBB0AF20B91A0A0079F6E9 /* MainMenu */ = {
 			isa = PBXGroup;
 			children = (
 				22BBB0B020B91A540079F6E9 /* MainMenu.sks */,
 			);
+			name = MainMenu;
 			path = Scenes;
 			sourceTree = "<group>";
 		};
